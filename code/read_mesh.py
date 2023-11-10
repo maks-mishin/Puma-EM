@@ -1,5 +1,5 @@
 import os, sys, time
-from scipy import zeros, compress, take, put
+from numpy import zeros, compress, take, put
 from PyGmsh import executeGmsh, write_geo
 #from scipy import weave
 #from scipy.weave import converters

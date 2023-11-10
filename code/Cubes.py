@@ -1,6 +1,6 @@
 import os.path, sys
-from scipy import array, take, argsort, ceil, floor, ones, arange, zeros
-from scipy import log2, sqrt
+from numpy import array, take, argsort, ceil, floor, ones, arange, zeros
+from numpy import log2, sqrt
 #from scipy import weave
 #from scipy.weave import converters
 

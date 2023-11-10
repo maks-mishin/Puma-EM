@@ -1,5 +1,5 @@
 from math import pi
-from scipy import real, imag, exp, conj
+from numpy import real, imag, exp, conj
 from mesh_functions_seb import *
 
 def JMCentroidsTriangles(ICoeffs, target_mesh):

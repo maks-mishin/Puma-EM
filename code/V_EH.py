@@ -1,6 +1,6 @@
 import os.path, sys
-from scipy import zeros, ones, arange, reshape, take, put, array, arccos, arcsin, sqrt, dot, sum, real, imag, exp
-from scipy import sin, cos, pi
+from numpy import zeros, ones, arange, reshape, take, put, array, arccos, arcsin, sqrt, dot, sum, real, imag, exp
+from numpy import sin, cos, pi
 try:
     from scipy import weave
     from scipy.weave import converters

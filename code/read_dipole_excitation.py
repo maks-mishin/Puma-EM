@@ -1,4 +1,4 @@
-from scipy import array, zeros
+from numpy import array, zeros
 
 def read_dipole_excitation(filename):
     # the structure of the excitation file must be as follows:

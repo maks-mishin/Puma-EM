@@ -1,7 +1,7 @@
 import sys, os, argparse
 from MLFMA import print_times
-from scipy import cos, sin, conj, log10, real, sum, dot, pi, sqrt, exp
-from scipy import array, amax
+from numpy import cos, sin, conj, log10, real, sum, dot, pi, sqrt, exp
+from numpy import array, amax
 from V_EH import G_EJ_G_HJ
 from EM_constants import *
 from ReadWriteBlitzArray import *

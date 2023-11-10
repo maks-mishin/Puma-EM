@@ -3,7 +3,7 @@ try:
     import commands
 except ImportError:
     import subprocess as commands
-from scipy import zeros, ones, arange, array, take, reshape, sort, argsort, put, sum, compress, nonzero, prod, floor, mean, sqrt, dot, arccos
+from numpy import zeros, ones, arange, array, take, reshape, sort, argsort, put, sum, compress, nonzero, prod, floor, mean, sqrt, dot, arccos
 #from scipy import weave
 #from scipy.weave import converters
 from read_mesh import read_mesh_GMSH_1, read_mesh_GMSH_2

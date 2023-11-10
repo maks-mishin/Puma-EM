@@ -1,6 +1,6 @@
 import os, sys
 import numpy
-from scipy import zeros, real, imag, array
+from numpy import zeros, real, imag, array
 
 def readIntFromDisk(filename):
     f = open(filename, 'r')

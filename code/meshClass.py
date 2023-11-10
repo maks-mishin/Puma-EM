@@ -3,8 +3,8 @@ try:
     import cPickle
 except ImportError:
     import pickle as cPickle
-from scipy import zeros, ones, arange, array, take, reshape, sort, argsort, put, sum, compress, nonzero, prod
-from scipy import mean, sqrt
+from numpy import zeros, ones, arange, array, take, reshape, sort, argsort, put, sum, compress, nonzero, prod
+from numpy import mean, sqrt
 from read_mesh import read_mesh_GMSH_1, read_mesh_GMSH_2, read_mesh_GiD, read_mesh_ANSYS
 from Cubes import cube_lower_coord_computation, RWGNumber_cubeNumber_computation, cubeIndex_RWGNumbers_computation, findCubeNeighbors, write_cubes
 from PyGmsh import executeGmsh, write_geo, findDeltaGap
